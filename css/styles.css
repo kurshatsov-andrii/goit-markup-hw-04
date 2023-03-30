@@ -314,6 +314,37 @@ background-color: var(--color-hover);
     padding-bottom: 32px;
 }
 
+.social-list-team{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 8px;
+}
+
+.social-link-team{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--color-logo-button);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link-team:hover,
+.social-link-team:focus{
+    background-color: var(--color-hover);
+}
+
+.social-list-icon {
+    fill: var(--color-footer-fon);    
+}
+
+.social-link-team:hover .social-list-icon,
+.social-link-team:focus .social-list-icon {
+    fill: var(--color-footer-fon);
+}
+
 /*---------------PROJECTS---------------*/
 
 .projects-container{
@@ -427,6 +458,54 @@ color: var(--color-fon-text-button);
 
 .logo-footer-text {
     color: var(--color-footer-fon);    
+}
+
+.logo-footer-container{
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+.social{
+    margin-left: 120px;    
+}
+
+.social-title {
+font-weight: 500;
+line-height: 1.50;
+letter-spacing: 0.02em;
+color: var(--background-color);
+}
+
+.social-footer-list {
+    display: flex;
+    justify-content: start;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.social-footer-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--color-logo-button);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-footer-link:hover,
+.social-footer-link:focus {
+    background-color: var(--color-hover);
+}
+
+.social-list-icon {
+    fill: var(--color-footer-fon);
+}
+
+.social-footer-link:hover .social-list-icon,
+.social-footer-link:focus .social-list-icon {
+    fill: var(--color-footer-fon);
 }
 
 /*-----------HIDDEN TEXT---------------------*/
