@@ -228,6 +228,16 @@ background-color: var(--color-hover);
     max-width: 264px;
 }
 
+.benefits-svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-footer-fon);
+    border-radius: 4px;
+    padding: 24px 100px;
+    margin-bottom: 8px;
+}
+
 /*---------------WE DOING---------------*/
 .we-doing {
     padding-bottom: 120px;
@@ -345,6 +355,55 @@ background-color: var(--color-hover);
     fill: var(--color-footer-fon);
 }
 
+/*-------------CUSTOMERS------------------*/
+.customers {}
+
+.section {}
+
+.container {}
+
+.customers-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--color-main-text);    
+    margin-bottom: 72px;
+}
+
+.customers-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;    
+}
+
+.customers-list-item {         
+}
+
+.customers-icon {
+    fill:#8E8F99;
+}
+
+.customers-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 168px;
+    height: 88px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+}
+
+.customers-link:hover, .customers-link:focus{
+border-color: var(--color-hover);
+}
+
+.customers-link:hover .customers-icon,
+.customers-link:focus .customers-icon {
+    fill: var(--color-hover);        
+}
 /*---------------PROJECTS---------------*/
 
 .projects-container{
